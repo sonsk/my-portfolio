@@ -2,15 +2,16 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div id="about" className="mt-32 min-h-screen flex flex-col items-center justify-center text-blue-950 dark:bg-blue-950 dark:text-white">
-        <h1 className="text-5xl font-bold "> About</h1>
-        <div className="pt-4 w-11/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between  dark:bg-blue-950">
+    <div id="about" className="border-2 border-yellow-200 min-h-screen  flex flex-col items-center justify-center text-blue-950 dark:bg-blue-950 dark:text-white">
+        <div className='mt-32 sm:text-center  w-10/12'>
+        <h1 className="text-5xl font-bold text-left "> About</h1>
+        <div className=" border border-green-400 pt-4 w-11/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-center md:justify-between  dark:bg-blue-950">
                 
-                <div className="w-full">
-                    <img className="rounded-full" src="img4.png"/>
+                <div className="w-full mx-auto border-2 border-red-800">
+                    <img className="rounded-full " src="img4.png"/>
                 </div>
-                <div className="text-center md:text-left dark:text-white">
-                    <p className="md:w-3/5 text-l">
+                <div className="text-justify  md:text-left dark:text-white border-2 border-blue-950">
+                    <p className="md:w-full p-4 text-l">
                     Salut! Je suis Steve, <span className='text-green-400'>un ingénieur de conception en informatique </span>
                     diplômé de l'École Nationale Supérieure Polytechnique de Douala et <span className='text-green-400'>développeur d'application web</span> basé à Douala, Cameroun. 
                      
@@ -34,6 +35,7 @@ const About = () => {
                 </div>
                 
             </div>
+          </div>
             <hr></hr>
     </div>
   )

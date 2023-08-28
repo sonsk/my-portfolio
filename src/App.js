@@ -7,6 +7,9 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact  from './components/Contact';
 import Skills from './components/Skills';
+import Experience from './components/Experience';
+import Leftnav from './components/Leftnav';
+import Footer from './components/Footer'
 
 import './App.css';
 
@@ -19,8 +22,11 @@ function App() {
       <Home/>
       <About/>
       <Skills/>
+      <Experience/>
       <Projects/>
       <Contact/>
+      <Leftnav/>
+      <Footer/>
     </div>
   );
 }
