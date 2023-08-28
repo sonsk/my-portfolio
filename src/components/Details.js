@@ -1,21 +1,20 @@
 import React from 'react'
 
 export const projects = {
-    php: {
-        tab:"php",
+    tab1: {
+        company:"sancfis",
         image:'img1.png',
-        title: "Details php",
-        description :`A common form of Lorem ipsum reads: Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat`,
-        langages : ['react','php']
+        title: "Projet de fin d'étude",
+        description :`Application web pour amélioration du suivi des demandes techniques à sancfis cameroun`,
+        langages : ['php','html','css','Javascript','Chartjs','PhpMailer']
     },
-    html:{
-        tab:"html",
+    tab2:{
+        company:"geloc",
         image:'img2.png',
-        title:"Details du html",
-        description:`voici le gros text du hmtl`,
-        langages:['react','php','html']
+        title:"Gestion de location",
+        description:`Projet personnel de gestion de location réalisé pour faciliter l'administration des
+        locataires et des appartements loués`,
+        langages:['php','html','css','Javascript']
     }
     
 }
@@ -92,11 +91,10 @@ export const experience = {
   },
   tab6:{
     company:'ENSPD',
-    poste:"(Projet Ecole)",
+    poste:"(Projet_Ecole)",
     date:"Janvier 2022",
     description: ['Conception et réalisation d\'un site d\'évaluation en ligne',
-    'Création d\'examens par les enseignants',
-    'Contrôle de l\'accessibilité aux examens des étudiants par les enseignants',
+  'Création d\'examens par les enseignants','Contrôle de l\'accessibilité aux examens des étudiants par les enseignants',
     'Gestion des classes et des étudiants (ajout et retrait)',
     'Mise en place de fonctionnalités pour gérer les interactions entre enseignants et étudiants'],
     link:"",

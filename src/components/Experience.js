@@ -7,14 +7,14 @@ export default function Experience() {
   return (
     <div
     id="experience"
-    className="min-h-screen border-2 border-blue-400 flex flex-col items-center text-blue-950 dark:bg-blue-950 dark:text-white"
+    className="min-h-screen flex flex-col items-center text-blue-950 dark:bg-blue-950 dark:text-white"
   >
-    <div className='md:w-8/12  border-2 border-green-400 mt-32'>
+    <div className='w-11/12 md:w-8/12   mt-32'>
       <h1 className="h-24 w-8/12  text-3xl font-bold text-left">Experiences</h1>
       
         <div className='hidden md:block'>
           <Tabs defaultActiveKey="php" 
-              className="min-h-full w-10/12 mx-auto border-2 border-yellow-200 "
+              className="min-h-full w-10/12 mx-auto  "
              centered= "true"
               tabPosition="left" >
               {Object.keys(experience).map((key)=>
@@ -59,16 +59,19 @@ export default function Experience() {
           </Tabs>
           </div>
           {/* Mobile */}
+         
+
 
           <div className='block md:hidden'>
-          <Tabs defaultActiveKey="php" 
-              className=" min-h-full w-full mx-auto border-2 border-yellow-200  "
-             centered= "true"
+            <div className='overflow-x-auto rounded-lg'>
+          <Tabs defaultActiveKey="tab0" 
+              className=" min-h-full   "
+             
               tabPosition="top" >
               {Object.keys(experience).map((key)=>
                 <Tabs.TabPane 
                     tab={
-                            <span className="overflow:auto rounded-lg shadow hover:text-green-500 text-blue-950 dark:text-gray-400 text-l">{experience[key].company}</span>
+                            <span className="w-full hover:text-green-500 text-blue-950 dark:text-gray-400 text-xl">{experience[key].company}</span>
                         } 
                     key={key}>
                     <div className="text-justify p-4">
@@ -76,14 +79,14 @@ export default function Experience() {
                         <p className='dark:text-white text-blue-950 text-xl first-letter:uppercase'>{experience[key].poste}{' '}
                             <span className='text-green-600 dark:text-green-400 font-bold'>{'@'}{experience[key].company}</span>
                         </p>
-                        <p className='p-2 text-gray-400'>
+                        <p className='p-2 text-gray-400 text-xl'>
                             {experience[key].date}
                         </p>
                         <div className="m-4 ">
                             <ul>
                             {experience[key].description.map((description, index)=>
                                 
-                                <li key={index} className="p-2  text-blue-950 dark:text-gray-300 font-semibold">
+                                <li key={index} className="p-2  text-blue-950 dark:text-gray-300 font-semibold text-xl">
                                     
                                  <span className='font-bold text-2xl'>→</span>   {description}
                                 </li>
@@ -95,7 +98,7 @@ export default function Experience() {
               )}
           </Tabs>
           </div>
-     
+          </div>
      
       </div>
   </div>

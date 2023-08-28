@@ -8,7 +8,7 @@ function Skills() {
     <div id="skills" className="min-h-screen flex flex-col items-center justify-center text-blue-950 dark:bg-blue-950 dark:text-white">
       <div className="w-10/12 flex flex-col mt-32 md:justify-between mx-auto">
         <h1 className="text-5xl font-bold justify-left ">Skills</h1>
-        <div className="w-full text-center md:w-8/12 flex flex-col md:flex-row md:justify-between mx-auto border-2 border-blue-800">
+        <div className="w-full text-center md:w-8/12 flex flex-col md:flex-row md:justify-between mx-auto ">
             {/* Langages */}
             <div className="mt-5 w-full  md:w-1/3">
             <p className="text-2xl">Langages</p>
