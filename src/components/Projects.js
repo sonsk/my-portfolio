@@ -21,9 +21,9 @@ function Projects() {
                     <img className="h-48 w-full rounded-full object-cover md:w-48" src={projects[key].image} alt="" loading="lazy" />
                 </div>
                 <div className="p-8">
-                    <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold text-xl">{projects[key].company}</div>
-                    <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">{projects[key].title}</a>
-                    <p className="mt-2 text-gray-500 text-justify text-xl">
+                    <div className="uppercase tracking-wide  text-indigo-500 font-semibold text-xl">{projects[key].company}</div>
+                    <a href="#" className="block mt-1 text-lg leading-tight font-medium text-blue-950 dark:text-green-500 hover:underline">{projects[key].title}</a>
+                    <p className="mt-2 text-gray-500 dark:text-slate-50 text-justify text-xl">
                         {projects[key].description}
                     </p>
                     <div className="overflow-auto rounded-lg">

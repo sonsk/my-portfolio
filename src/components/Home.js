@@ -4,7 +4,7 @@ import Typical from "react-typical";
 function Home() {
     return(
        
-        <div id="home" className=" mt-32 min-h-screen w-9/12 mx-auto  dark:bg-blue-950 dark:text-white">
+        <div id="home" className=" mt-24 min-h-screen w-9/12 mx-auto  dark:bg-blue-950 dark:text-white">
             <div className="text-center md:text-left">
             <h2 className="text-5xl md:text-5xl mb-8">Hello!</h2>
             <h2 className="text-5xl md:text-5xl">call me <span className="font-bold">Sons </span>
