@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { Tabs, Card, Button } from "antd";
 import { projects } from "./Details";
-
+import { Link } from "react-router-dom";
+import Bs0Circle from "react-icons/bs"
 
 
 function Projects() {
@@ -22,7 +22,7 @@ function Projects() {
                 </div>
                 <div className="p-8">
                     <div className="uppercase tracking-wide  text-indigo-500 font-semibold text-xl">{projects[key].company}</div>
-                    <a href="#" className="block mt-1 text-lg leading-tight font-medium text-blue-950 dark:text-green-500 hover:underline">{projects[key].title}</a>
+                    <p  className="block mt-1 text-lg leading-tight font-medium text-blue-950 dark:text-green-500 hover:underline">{projects[key].title}</p>
                     <p className="mt-2 text-gray-500 dark:text-slate-50 text-justify text-xl">
                         {projects[key].description}
                     </p>
@@ -43,7 +43,11 @@ function Projects() {
     )}
         
     </div>
+    <div className="w-8/12 mx-auto">
    
+        <Link to="/all-projects" className="font-bold dark:text-green-400">Voir tous les projets ! </Link>
+        
+   </div>
     </div>
    </div>
  

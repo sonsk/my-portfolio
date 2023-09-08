@@ -3,19 +3,27 @@ import React from 'react'
 export const projects = {
     tab1: {
         company:"sancfis",
-        image:'img1.png',
+        image:'projets/sancfis1.png',
         title: "Projet de fin d'étude",
         description :`Application web pour amélioration du suivi des demandes techniques à sancfis cameroun`,
-        langages : ['php','html','css','Javascript','Chartjs','PhpMailer']
+        langages : ['php','html','css','Javascript','Chartjs','PhpMailer','Bootstrap']
     },
     tab2:{
         company:"geloc",
-        image:'img2.png',
+        image:'projets/geloc1.png',
         title:"Gestion de location",
         description:`Projet personnel de gestion de location réalisé pour faciliter l'administration des
         locataires et des appartements loués`,
-        langages:['php','html','css','Javascript']
-    }
+        langages:['php','html','css','Javascript','Bootstrap']
+    },
+    tab3:{
+      company:"sweet By Kjhons",
+      image:'projet/sweet1.png',
+      title:"E-commerce de Pâtisserie",
+      description:`Site ecommerce pour vente de pâtisserie et mise en place des interfaces administrateur
+      pour gestion des clients, commandes, et spécifités liées aux produits comme les parfums disponibles `,
+      langages:['php','html','css','Javascript','Bootstrap']
+  }
     
 }
 export const experience = {
@@ -32,7 +40,7 @@ export const experience = {
     poste:"stagiaire PFE",
     date:"Avril -Juillet 2023",
     description: ['Développement du backend en PHP pour une application de gestion de projets',
-     'Création et gestion d\'opportunités appelées demandes d\études techniques',
+     'Création et gestion d\'opportunités appelées demandes d\'études techniques',
       'Suivi de l\'avancement des projets',
       'Collaboration entre les membres de l\'équipe',
        'Gestion des ressources et des tâches',
