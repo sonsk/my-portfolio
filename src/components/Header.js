@@ -22,19 +22,19 @@ function Header() {
         <div className="md:flex md:space-x-4 font-bold">
           <div className="flex space-x-4 hidden md:block">
             <ScrollLink to="about" smooth="true">
-              <a href="">About</a>
+              <button>About</button>
             </ScrollLink>
             <ScrollLink to="skills" smooth="true">
-              <a href="">Skills</a>
+             <button>Skills</button>
             </ScrollLink>
             <ScrollLink to="experience" smooth="true">
-              <a href="">Experience</a>
+             <button>Experience</button>
             </ScrollLink>
             <ScrollLink to="projects" smooth="true">
-              <a href="">Projects</a>
+              <button>Projects</button>
             </ScrollLink>
             <ScrollLink to="contact" smooth="true">
-              <a href="">Contact</a>
+              <button>Contact</button>
             </ScrollLink>
           </div>
           <div onClick={handleMenu}>
@@ -45,20 +45,20 @@ function Header() {
       {menu ? (
         <div className="my-auto dark:bg-blue-950 bg-white dark:text-white text-blue-950 md:hidden">
           <div className="min-h-full flex flex-col items-center justify-center text-center text-3xl">
-            <ScrollLink to="about" smooth="true" className="pb-12">
-              <a href="">About</a>
+            <ScrollLink to="about" smooth="true" className="pb-12" >
+              <button>About</button>
             </ScrollLink>
             <ScrollLink to="skills" smooth="true" className="pb-12">
-              <a href="">Skills</a>
+              <button>Skills</button>
             </ScrollLink>
             <ScrollLink to="experience" smooth="true" className="pb-12">
-              <a href="">Experience</a>
+             <button>Experience</button>
             </ScrollLink>
             <ScrollLink to="projects" smooth="true" className="pb-12">
-              <a href="">Projects</a>
+              <button>Projects</button>
             </ScrollLink>
-            <ScrollLink to="contact" smooth="true" className="pb-12">
-              <a href="">Contact</a>
+            <ScrollLink to="contact" smooth="true" className="pb-12" >
+             <button>Contact</button>
             </ScrollLink>
           </div>
         </div>
