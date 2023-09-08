@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { projects } from "./Details";
-import { Link } from "react-router-dom";
-import Bs0Circle from "react-icons/bs"
+import { BrowserRouter as Router, Link } from "react-router-dom";
+
 
 
 function Projects() {
@@ -17,8 +17,8 @@ function Projects() {
 
         <div key={key} className="m-4 max-w-md mx-auto  rounded-xl shadow-md overflow-hidden md:max-w-2xl">
             <div className="md:flex">
-                <div className="md:flex-shrink-0 transform scale-110 -rotate-6">
-                    <img className="h-48 w-full rounded-full object-cover md:w-48" src={projects[key].image} alt="" loading="lazy" />
+                <div className="md:flex-shrink-0 ">
+                    <img className="h-48 w-full  object-cover md:w-48" src={projects[key].image} alt="" loading="lazy" />
                 </div>
                 <div className="p-8">
                     <div className="uppercase tracking-wide  text-indigo-500 font-semibold text-xl">{projects[key].company}</div>
@@ -44,8 +44,10 @@ function Projects() {
         
     </div>
     <div className="w-8/12 mx-auto">
-   
-        <Link to="/all-projects" className="font-bold dark:text-green-400">Voir tous les projets ! </Link>
+    
+    
+    <Link to="/all-projects" className="font-bold text-blue-950 dark:text-green-400">Voir tous les projets ! </Link>
+          
         
    </div>
     </div>

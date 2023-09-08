@@ -18,7 +18,7 @@ export const projects = {
     },
     tab3:{
       company:"sweet By Kjhons",
-      image:'projet/sweet1.png',
+      image:'projets/sweet1.png',
       title:"E-commerce de Pâtisserie",
       description:`Site ecommerce pour vente de pâtisserie et mise en place des interfaces administrateur
       pour gestion des clients, commandes, et spécifités liées aux produits comme les parfums disponibles `,

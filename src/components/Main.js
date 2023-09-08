@@ -24,7 +24,13 @@ const Main = () => {
       <Leftnav/>
       <Footer/>
     </div>
-      
-    )
+       /*  <Router>     
+            <Routes>
+               
+                <Route path="/projects" element={<Projects/>}></Route>
+                <Route path="/all-projects" element={<Allprojects/>}></Route>
+            </Routes>
+        </Router> */
+    );
 }
 export default Main;
