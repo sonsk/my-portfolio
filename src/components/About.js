@@ -24,7 +24,7 @@ const About = () => {
                      <br></br>
                      <br></br>
                     Mon parcours est une mosaïque d'expériences riches et variées. 
-                    En tant que développeur freelance, j'ai conçu et déceloppé des solutions sur mesure pour une multitude de clients.
+                    En tant que développeur freelance, j'ai conçu et développé des solutions sur mesure pour une multitude de clients.
                      Mes plongées dans l'univers des applications web, que ce soit à travers des projets scolaires ou personnels, 
                      ont enrichi ma boîte à outils et affiné mon approche de conception.
                      <br></br>

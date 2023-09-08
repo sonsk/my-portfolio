@@ -13,24 +13,18 @@ import Footer from '../components/Footer'
 const Main = () => {
     return (
         <div className="min-h-screen dark:bg-blue-950">
-      
-      <Header/>
-      <Home/>
-      <About/>
-      <Skills/>
-      <Experience/>
-      <Projects/>
-      <Contact/>
-      <Leftnav/>
-      <Footer/>
-    </div>
-       /*  <Router>     
-            <Routes>
-               
-                <Route path="/projects" element={<Projects/>}></Route>
-                <Route path="/all-projects" element={<Allprojects/>}></Route>
-            </Routes>
-        </Router> */
+
+            <Header />
+            <Home />
+            <About />
+            <Skills />
+            <Experience />
+            <Projects />
+            <Contact />
+            <Leftnav />
+            <Footer />
+
+        </div>  
     );
 }
 export default Main;
