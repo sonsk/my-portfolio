@@ -5,7 +5,7 @@ import Theme from './Theme'
 
 export default function Allprojects() {
   return (
-    <div className='pt-12 w-10/12 mx-auto '>
+    <div className='pt-12 w-10/12 mx-auto dark'>
         <div className='w-8/12 mx-auto flex justify-between '>
         
             <Link to='/' preventScrollReset={true} className='text-blue-950 text-xl dark:text-green-400'>Back to Home</Link>
